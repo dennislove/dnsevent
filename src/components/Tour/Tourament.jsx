@@ -13,7 +13,7 @@ function Tourament() {
       
   return (
     <div className='max-w-[1300px] m-auto relative'>
-        <div className='font-normal text-[40px] text-yellow-600 capitalize font-oxa text-center'>Viettools Tour Pro</div>
+        <div className='font-normal text-[40px] text-yellow-600 capitalize font-oxa text-center'>ĐÔNG SƠN EVENT</div>
         <div className='font-semibold text-3xl text-white capitalize font-pop text-center'>Bao gồm 4 thành viên</div>
 
         <div className='mt-[50px] grid grid-cols-5'>

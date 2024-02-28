@@ -5,25 +5,13 @@ import InterViewCT from "../pages/Interview/InterViewCT";
 import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import NewsPage from "../pages/News/NewsPage";
 import ProductSer from "../pages/Service/ProductSer";
-import ContactCT from "../pages/Service/ContactCT";
+import ContactPage from "../pages/ContactCT/ContactPage";
 
 export const routes = [
     {
         path:'/',
         element:HomePage,
         title: "Đông Sơn Event",
-        isShowHeader: true
-    },
-    {
-        path:'/lien-he',
-        element:ContactCT,
-        title: "Liên Hệ",
-        isShowHeader: true
-    },
-    {
-        path:'/tin-tuc',
-        element:NewsPage,
-        title: "Tin Tức",
         isShowHeader: true
     },
     {
@@ -42,6 +30,18 @@ export const routes = [
         path:'/dich-vu',
         element:ProductSer,
         title: "Dịch Vụ",
+        isShowHeader: true
+    },
+    {
+        path:'/tin-tuc',
+        element:NewsPage,
+        title: "Tin Tức",
+        isShowHeader: true
+    },
+    {
+        path:'/lien-he',
+        element:ContactPage,
+        title: "Liên Hệ",
         isShowHeader: true
     },
     {

@@ -1,10 +1,11 @@
 
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useMemo } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {routes} from './routes'
 import DefautComponent from './components/DefautComponent/DefautComponent';
 
 function App() {
+ 
   return (
     <Router>
       <Routes>
@@ -25,5 +26,6 @@ function App() {
      </Router>
   )
 }
+
 
 export default App;

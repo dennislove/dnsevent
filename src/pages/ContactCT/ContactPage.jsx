@@ -1,12 +1,12 @@
 import React from 'react'
-import Contact from '../../components/Contact/Contact'
-import Footer from '../../components/Footer/Footer'
 import ScrollToTop from '../../components/HeaderComponent/ScrollToTop '
+import Footer from '../../components/Footer/Footer'
+import NewContact from '../../components/Contact/NewContact'
 
-function ContactCT() {
+function ContactPage() {
   return (
     <div className='relative'>
-      <Contact/>
+      <NewContact/>
       <Footer/>
       <div className=' absolute'>
         <ScrollToTop/>
@@ -15,4 +15,4 @@ function ContactCT() {
   )
 }
 
-export default ContactCT
+export default ContactPage
