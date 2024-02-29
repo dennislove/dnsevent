@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 function Interview() {
     
   return (
-   <div className='px-0 py-[80px] bg-[#000022]'>
+   <div className='px-0 py-[80px] bg-[#000022] lg:px-0 md:px-5 sm:px-5 '>
         <div className=' max-w-[1300px] m-auto relative '>
-           <div className='flex  justify-between'>
-               <div className=" bg-[url(images/bg1.jpg)] w-[37%] lg:w-[35%]  bg-cover p-[50px]">
+           <div className='flex  justify-between lg:flex md:flex sm:block pm:block'>
+               <div className=" bg-[url(images/bg1.jpg)] w-[37%] lg:w-[35%] md:w-[35%] sm:w-full pm:w-full bg-cover p-[50px]">
                     <div className='block text-white'>
                         <h2 className='font-semibold text-2xl'>VIETTOOLS PROFESSIONAL TEAMBUILDING TOUR</h2>
                         <span className=' font-light leading-6 text-base'>Biểu tượng Logo "Viettools" được bao bọc bởi đôi cánh cách điệu với sải canh vươn cao mãnh mẽ của một loài chim được mệnh danh là chúa tể bầu trời với ý chí sắt đá chưa bao giờ chịu khuất phục trước khó khăn và thử thách. Luôn rèn luyện sức mạnh và ý chí kiên định</span>
@@ -23,7 +23,7 @@ function Interview() {
                 </div>
                </div>
                
-              <div className='w-[60%] '>  <PhotoCollage/></div>
+              <div className='w-[60%] lg:w-[63%] md:w-[63%] sm:w-full pm:w-full md:mt-0 sm:mt-4 pm:mt-4 '>  <PhotoCollage/></div>
            </div>
            </div>
    </div>

@@ -22,7 +22,7 @@ function TourMember() {
   return (
     <div className='flex flex-col gap-8'>
         {ListMember.map((item,index) =>(
-       <div key={index} className='w-[70%] group items-center justify-center flex gap-8 relative'>
+       <div key={index} className='w-[70%] lg:w-[70%] md:w-[70%] sm:w-full group items-center justify-center flex gap-8 relative'>
                 <div className={
                 index % 2 === 0
                   ? "w-1/2 h-1/2 ml-20 translate-x-1/2"
