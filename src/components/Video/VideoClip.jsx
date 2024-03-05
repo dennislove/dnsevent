@@ -22,7 +22,7 @@ function VideoClip() {
         },
     ]
   return (
-    <div className="bg-[url(images/bg2.jpg)] bg-cover bg-[#000022]">
+    <div className="bg-[url(images/bg2.jpg)] bg-cover bg-[#000022] mb-10">
     <div className=' max-w-[1300px] m-auto relative'>
         <div className='relative text-center mb-10'>
             <div className='mb-5 text-center font-oxa'>
@@ -32,7 +32,7 @@ function VideoClip() {
         </div>
         <div className='grid grid-cols-2 grid-rows-2 gap-5'>
             {video.map((item, index)=>(
-            <div className='relative ' key={index}>
+            <div className='relative lg:w-full sm:w-[300px]' key={index}>
                 <ReactPlayer url={item.url} controls={true}/>
                 
                 <h3 className='absolute bottom-0 font-semibold uppercase right-0 text-xl mb-0 text-white'>{item.name}</h3>

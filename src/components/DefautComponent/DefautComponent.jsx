@@ -5,7 +5,7 @@ import HeaderComponent from '../HeaderComponent/HeaderComponent'
 function DefautComponent({children}) {
   return (
     <div className=''>
-      <HeaderComponent/>
+     <div className=''> <HeaderComponent/></div>
       {children}
     </div>
   )

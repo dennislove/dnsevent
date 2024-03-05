@@ -7,22 +7,22 @@ function PhotoCollage() {
   return (
     <div className=" mx-auto px-4 lg:px-4 md:px-4 sm:px-0 pm:px-0 ">
           <div className='flex justify-between mb-8 text-white font-oxa '>
-              <div className='px-3 py-6 lg:py-6 md:py-6 sm:py-4 pm:py-4 bg-[#ff4220] w-[31%] lg:w-[31%] md:w-[31%] sm:w-[33%] pm:w-[33%]  text-center '>
-                <div className=''><CountUp end={10} className="text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " />
-                 <span className='text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
-                <p className=' font-normal text-base lg:text-base md:text-base sm:text-sm pm:text-sm'>Năm Kinh Nghiệm</p>
+              <div className='px-3 md:py-6 pm:py-4 bg-[#ff4220] md:w-[31%] pm:w-[33%]  text-center '>
+                <div className=''><CountUp end={10} className=" md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " />
+                 <span className=' md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
+                <p className=' font-normal md:text-base pm:text-sm'>Năm Kinh Nghiệm</p>
                 </div>
              
-              <div className='px-3 py-6 lg:py-6 md:py-6 sm:py-4 pm:py-4 bg-[#3dc5ce] w-[31%] lg:w-[31%] md:w-[31%] sm:w-[33%] pm:w-[33%]  text-center '>
-              <div className=''><CountUp end={600} className="text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " /> 
-              <span className='text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
-                <p className=' font-normal text-base lg:text-base md:text-base sm:text-sm pm:text-sm'>Chương Trình</p>
+              <div className='px-3 md:py-6 pm:py-4 bg-[#3dc5ce] md:w-[31%] pm:w-[33%]  text-center '>
+              <div className=''><CountUp end={600} className=" md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " /> 
+              <span className=' md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
+                <p className=' font-normal md:text-base pm:text-sm'>Chương Trình</p>
                 </div>
              
-              <div className='px-3 py-6 lg:py-6 md:py-6 sm:py-4 pm:py-4 bg-[#ffd231] w-[31%] lg:w-[31%] md:w-[31%] sm:w-[33%] pm:w-[33%]  text-center '>
-              <div className=''><CountUp end={200} className="text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " /> 
-              <span className='text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
-                <p className=' font-normal text-base lg:text-base md:text-base sm:text-sm pm:text-sm'>Khách Hàng</p>
+              <div className='px-3 md:py-6 pm:py-4 bg-[#ffd231] md:w-[31%] pm:w-[33%]  text-center '>
+              <div className=''><CountUp end={200} className=" md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold " /> 
+              <span className=' md:text-[60px] sm:text-[40px] pm:text-3xl font-semibold'>+</span></div>
+                <p className=' font-normal md:text-base pm:text-sm'>Khách Hàng</p>
                 </div>
           </div>
          

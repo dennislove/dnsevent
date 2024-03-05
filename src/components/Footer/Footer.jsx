@@ -5,15 +5,15 @@ import LinkNow from './LinkNow'
 function Footer() {
   return (
     <div className='bg-[url(images/bg2.jpg)] object-fill bg-cover pt-10 bg-[#000022] pb-10'>
-      <div className='max-w-[1300px] m-auto relative'>
-        <div className='flex  justify-between'>
-          <div className='w-[20%]'> 
+      <div className='max-w-[1300px]  lg:m-auto md:mx-10 sm:mx-8 pm:mx-5 relative'>
+        <div className=' justify-between mb-10  sm:flex pm:block'>
+          <div className=' mx-auto  md:w-[20%] sm:w-[30%] pm:w-full mb-10'> 
           <img src={logo} alt="" className='w-28 h-28 rounded-full'/>
           <h2 className=' uppercase text-yellow-600 font-oxa text-base'> Đông sơn event</h2>
           <h2 className='text-sm text-white'>Giới hạn là bầu trời</h2>
           </div>
-          <div className='w-[77%] '> 
-              <ul className='grid grid-cols-4 gap-10'>
+          <div className=' md:w-[77%] sm:w-[67%] pm:w-full'> 
+              <ul className='grid  lg:gap-10 md:gap-8 sm:gap-6 pm:gap-0  md:grid-cols-4 sm:grid-cols-2 pm:grid-cols-1'>
                 <li className='  text-white font-medium text-xl uppercase'>Giờ làm việc
                   <div className='flex items-center mb-9 mt-4 '>
                     <div className=' rounded-lg bg-[#fff] text-center text-white '>
@@ -36,11 +36,11 @@ function Footer() {
                     </div>
                   </div>
                 </li>
-                <li className=' uppercase text-white font-medium text-xl'>Dịch vụ
+                <li className=' uppercase text-white font-medium text-xl mb-10'>Dịch vụ
                   <h4 className=' mt-4 text-sm font-light '>MSC MOVING FORWARD WITH VIETNAM</h4>
                 </li>
                 <li className=' uppercase text-white font-medium text-xl'>Liên hệ ngay
-               <div className='mt-4'> <LinkNow/></div>
+                  <div className='mt-4'> <LinkNow/></div>
                 </li>
                 
 
@@ -48,10 +48,10 @@ function Footer() {
           </div>
         </div>
 
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid gap-10  md:grid-cols-3 sm:grid-cols-1 pm:grid-cols-1'>
             <div className='px-4 py-5 bg-yellow-600  flex gap-5  items-center rounded-md'>
             
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-20 h-20 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-20 h-20  lg:w-20 lg:h-20 md:w-20 md:h-20 sm:w-14 sm:h-14 pm:w-14 pm:h-14 text-white">
     <path fillRule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clipRule="evenodd" />
   </svg>
             
@@ -60,7 +60,6 @@ function Footer() {
             <span>38 đường số 8, Khu Dân Cư Cityland Park Hills, Gò Vấp, Thành Phố Hồ Chí Minh</span>
           </div>
             </div>
-
             <div className='px-4 py-5 bg-yellow-600  flex items-center rounded-md gap-5'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 text-white">
   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -82,7 +81,7 @@ function Footer() {
           </div>
             </div>
         </div>
-        <h2 className='text-center font-sm text-white mt-10'>2023 Copyright <span className='text-yellow-600'>Đông Sơn Event</span>. Designed by <span className='text-yellow-600'>Dennis Tran</span></h2>
+        <h2 className='text-center font-sm text-white mt-10'>2023 Copyright <span className='text-yellow-600'>Đông Sơn Event</span>. Designed by <span className='text-yellow-600'>dongsonevent</span></h2>
       </div>
     </div>
   )

@@ -15,7 +15,7 @@ function HomePage() {
       <Project/>
       <Tourament/>
       <SlideMember/>
-      {/* <VideoClip/> */}
+      <VideoClip/>
       <Media/>
       <Footer/>
       <div className=' absolute'>

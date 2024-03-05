@@ -3,11 +3,11 @@ import '../Footer/link.css'
 
 function LinkNow() {
   return (
-    <div class="fui-connect-social">
-      <ul class="social-list">
-        <li class="social-item">
-          <a href="#" class="social-link" title="Facebook">
-            <div class="icon">
+    <div className="fui-connect-social">
+      <ul className="social-list">
+        <li className="social-item">
+          <a href="#" className="social-link" title="Facebook">
+            <div className="icon">
               <svg
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
@@ -18,24 +18,24 @@ function LinkNow() {
                 />
               </svg>
             </div>
-            <span class="text">Facebook</span>
+            <span className="text">Facebook</span>
           </a>
         </li>
-        <li class="social-item">
-          <a href="#" class="social-link" title="Instagram">
-            <div class="icon">
+        <li className="social-item">
+          <a href="#" className="social-link" title="Instagram">
+            <div className="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
   <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
 </svg>
 
             </div>
-            <span class="text">012344567</span>
+            <span className="text">012344567</span>
           </a>
         </li>
 
-        <li class="social-item">
-          <a href="#" class="social-link" title="Youtube">
-            <div class="icon">
+        <li className="social-item">
+          <a href="#" className="social-link" title="Youtube">
+            <div className="icon">
               <svg
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ function LinkNow() {
                 />
               </svg>
             </div>
-            <span class="text">Youtube</span>
+            <span className="text">Youtube</span>
           </a>
         </li>
       </ul>

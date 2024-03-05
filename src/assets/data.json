@@ -1,0 +1,266 @@
+{
+    "datamember":[
+        {
+            "id":1,
+            "name": "Nguyễn Hữu Ngọ",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Engineer",
+            "location": "Hanoi"
+        },
+        {
+            "id":2,
+            "name": "Person 2",
+            "avatar":"https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Designer",
+            "location": "Ho Chi Minh City"
+        },
+        {
+            "id":3,
+            "name": "Person 3",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Teacher",
+            "location": "Da Nang"
+        },
+        {
+            "id":4,
+            "name": "Person 4",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":5,
+            "name": "Person 5",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":6,
+            "name": "Person 6",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":7,
+            "name": "Person 7",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":8,
+            "name": "Person 8",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":9,
+            "name": "Person 9",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":10,
+            "name": "Person 10",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":11,
+            "name": "Person 11",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":12,
+            "name": "Person 12",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        },
+        {
+            "id":13,
+            "name": "Person 13",
+            "avatar": "https://images.unsplash.com/photo-1440589473619-3cde28941638?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80",
+            "title": "Developer",
+            "location": "Hai Phong"
+        }
+    ],
+    "sidebar":[
+        {
+            "path":"/",
+            "id": 1,
+            "name": "Trang Chủ"
+        },
+        {
+            "path":"/gioi-thieu",
+            "id": 2,
+            "name": "Giới Thiệu"
+        },
+        {
+            "path":"/du-an",
+            "id": 3,
+            "name": "Dự Án"
+        },
+        {
+            "path":"/dich-vu",
+            "id": 4,
+            "name": "Dịch Vụ"
+        },
+        {
+            "path":"/tin-tuc",
+            "id": 5,
+            "name": "Tin Tức"
+        },
+        {
+            "path":"/lien-he",
+            "id": 6,
+            "name": "Liên Hệ"
+        }
+    ],
+    "interview":[
+        {
+            "countup": "10",
+            "title": "Năm Kinh Nghiệm",
+            "color": "#ff4220"
+        },
+        {
+            "countup": "600",
+            "title": "Chương Trình",
+            "color": "#3dc5ce"
+        },
+        {
+            "countup": "200",
+            "title": "Khách Hàng",
+            "color": "#ffd231"
+        }
+    ],
+    "customer":[
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 1
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 2
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 3
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 4
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 5
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 6
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 7
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/225x100x2/upload/photo/khach-2-05-72190.png",
+            "imgAlt":"thumbs",
+            "id": 8
+        }
+
+    ],
+    "tourament":[
+        { 
+            "title": "Chuyên Nghiệp",
+            "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
+        },
+        { 
+            "title": "Sáng Tạo", 
+            "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
+        },
+        { 
+            "title": "Trách Nhiệm", 
+            "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
+        },
+        { 
+            "title": "Tận Tâm", 
+            "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
+        }
+    ],
+    "imageMedia":[
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image1",
+            "id":1
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image2",
+            "id":2
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image3",
+            "id":3
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image4",
+            "id":4
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image5",
+            "id":5
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image6",
+            "id":6
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/460x420x1/upload/photo/msc-20240.jpg",
+            "imgAlt":"image7",
+            "id":7
+        }
+    ],
+    "tourmember":[
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
+            "imgAlt":"tourmember_1",
+            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
+            "imgAlt":"tourmember_2",
+            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
+            "imgAlt":"tourmember_3",
+            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+        },
+        {
+            "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
+            "imgAlt":"tourmember_4",
+            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+        }
+    ]
+    
+
+}

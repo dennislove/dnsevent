@@ -37,7 +37,7 @@ function ContactMap() {
             <div className='w-full'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35715.72921516877!2d105.77664784370948!3d19.79108454198489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f805cb927957%3A0x6bf72517d06defcd!2zVHLGsOG7nW5nIFRIUFQgQ2h1ecOqbiBMYW0gU8ahbg!5e0!3m2!1svi!2s!4v1708786269429!5m2!1svi!2s" 
            height="300" 
-            className='w-full' loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            className='w-full' loading="lazy" ></iframe>
             </div>
          </div>
         </div>
