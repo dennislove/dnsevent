@@ -28,7 +28,7 @@ function PhotoCollage() {
          
         
          <div className='flex gap-7 lg:gap-7 md:gap-4 sm:gap-3 pm:gap-2 flex-row'>
-              <div className="  w-full relative overflow-hidden block ">
+              <div className="  w-full relative overflow-hidden block text-white">
                 <img
                   src={back1}
                   alt="Image 1"

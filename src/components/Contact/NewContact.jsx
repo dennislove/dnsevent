@@ -4,7 +4,6 @@ import EmailSentNotification from './EmailSentNotification';
 import ContactMap from './ContactMap';
 import FormInput from './FormInput';
 
-
 function NewContact() {
   const inputs = [
     {
@@ -85,17 +84,17 @@ function NewContact() {
  
   return (
     <div className=" bg-[#000022] pt-10 ">
-    <div className=' max-w-[1300px] m-auto relative'>
+    <div className=' max-w-[1300px] lg:m-auto  pm:mx-10 relative'>
         <div className='relative text-center '>
             <div className='mb-5 text-center font-oxa'>
                 <h2 className='  font-normal text-[40px] text-white capitalize'>Liên Hệ</h2>
             </div>
             
         </div>
-       <div className='grid grid-cols-2 gap-10'>
+       <div className='grid md:grid-cols-2 pm:grid-cols-1 gap-10'>
         <div className='border p-5'>
           <form ref={form} onSubmit={sendEmail}>
-               <div className='grid grid-cols-2 gap-5'>
+               <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 pm:grid-cols-1 gap-5'>
             {inputs.map((input) =>(
                <FormInput key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
               ))}
@@ -129,8 +128,6 @@ function NewContact() {
         </div>
         {isSent && <EmailSentNotification />}
           </form>
-
-          
         </div>
        <ContactMap/>
        </div>
