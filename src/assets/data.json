@@ -109,9 +109,9 @@
             "name": "Dự Án"
         },
         {
-            "path":"/dich-vu",
+            "path":"/san-pham",
             "id": 4,
-            "name": "Dịch Vụ"
+            "name": "Sản Phẩm"
         },
         {
             "path":"/tin-tuc",
@@ -260,7 +260,35 @@
             "imgAlt":"tourmember_4",
             "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
         }
+    ],
+    "slider":[
+        {
+            "id":1,
+            "author":"DNSEVENT",
+            "member":"Vietinbank",
+            "image":"https://github.com/HoanghoDev/slider_1/blob/main/image/img1.jpg?raw=true",
+            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?"
+        },
+        {
+            "id":2,
+            "author":"DNSEVENT",
+            "member":"Lê Gia",
+            "image":"https://github.com/HoanghoDev/slider_1/blob/main/image/img2.jpg?raw=true",
+            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?"
+        },
+        {
+            "id":3,
+            "author":"DNSEVENT",
+            "member":"Vietcombank",
+            "image":"https://github.com/HoanghoDev/slider_1/blob/main/image/img3.jpg?raw=true",
+            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?"
+        },
+        {
+            "id":4,
+            "author":"DNSEVENT",
+            "member":"THPT Chuyên Lam Sơn",
+            "image":"https://github.com/HoanghoDev/slider_1/blob/main/image/img4.jpg?raw=true",
+            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?"
+        }
     ]
-    
-
 }

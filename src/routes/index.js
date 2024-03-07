@@ -27,9 +27,9 @@ export const routes = [
         isShowHeader: true
     },
     {
-        path:'/dich-vu',
+        path:'/san-pham',
         element:ProductSer,
-        title: "Dịch Vụ",
+        title: "Sản Phẩm",
         isShowHeader: true
     },
     {

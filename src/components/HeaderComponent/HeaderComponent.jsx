@@ -58,7 +58,7 @@ function HeaderComponent() {
           </section>
   
           {/* sidebar mobile menu */}
-          <div
+          <div onClick={() => setMenu(false)} 
             className={clsx(
               " fixed h-full w-screen lg:hidden bg-black/50  backdrop-blur-sm top-0 right-0  -translate-x-full transition-all ",
               isSideMenuOpen && "translate-x-0"
@@ -74,9 +74,9 @@ function HeaderComponent() {
               <img src={logo} alt="logo-DNS" className='mx-auto rounded-full  pm:h-20 border-2 border-yellow-600'/>
               <ul className='mt-2'>
             {headerList.map(item =>(
-                         <li key={item.id} className=' w-full mt-5 uppercase'>
-                            <a  href={item.path}>{item.name}</a>
-                            <div className='bg-[#f2f2f2] h-[1px] w-full mt-2'></div>
+                         <li key={item.id} className=' w-full  uppercase cursor-pointer'>
+                            <a  href={item.path} className=' items-center py-3 block border-b border-[#f2f2f2]'>{item.name}</a>
+                            {/* <div className='bg-[#f2f2f2] h-[1px] w-full mt-2'></div> */}
                           </li>
                  ))}
             </ul>
