@@ -56,6 +56,10 @@
     flex-shrink: 0;
     position: relative;
 }
+.thumbnail .item:nth-child(1){
+    order: 4;
+}
+
 .thumbnail .item img{
     width: 100%;
     height: 100%;
@@ -148,11 +152,11 @@
     }
 }
 
-.carousel.next .thumbnail .item:nth-last-child(1){
+.carousel.next .thumbnail .item:nth-last-child(0){
     overflow: hidden;
     animation: showThumbnail .5s linear 1 forwards;
 }
-.carousel.prev .list .item img{
+.carousel.next .list .item img{
     z-index: 100;
 }
 @keyframes showThumbnail{
@@ -175,7 +179,10 @@
 
 .carousel.prev .list .item:nth-child(2){
     z-index: 2;
+    
 }
+
+
 
 .carousel.prev .list .item:nth-child(2) img,
 .carousel.prev .list .item:nth-child(3) img,
@@ -196,10 +203,19 @@
     }
 }
 
-.carousel.prev .thumbnail .item:nth-child(1){
+.carousel.prev .thumbnail .item:nth-child(0){
     overflow: hidden;
     opacity: 0;
     animation: showThumbnail .5s linear 1 forwards;
+}
+.carousel.prev .thumbnail{
+    animation: effectPrev .5s linear 1 forwards;
+}
+
+@keyframes effectPrev{
+    from{
+        transform: translateX(-150px);
+    }
 }
 .carousel.next .arrows button,
 .carousel.prev .arrows button{

@@ -8,7 +8,8 @@ function Slider() {
     const [slideDirection, setSlideDirection] = useState("");
     const [transform, setTransform] = useState("")
     const [thumbnailOrder, setThumbnailOrder] = useState(sliders.map((_, index) => index));
-
+   
+   
     const nextSlide = () => {
         const newSlide = (currentSlide + 1) % sliders.length;
         setCurrentSlide(newSlide);
@@ -16,7 +17,7 @@ function Slider() {
         setSlideDirection("next");
         setTransform("animation-showContent")
     };
-
+    
     const prevSlide = () => {
         const newSlide = (currentSlide - 1 + sliders.length) % sliders.length;
         setCurrentSlide(newSlide);
@@ -26,13 +27,16 @@ function Slider() {
 
     const moveThumbnailToEnd = (index) => {
         setThumbnailOrder(prevOrder => {
-            const newOrder = [...prevOrder];
+            const temp = prevOrder[0];
+            console.log(temp)
+            const newOrder = prevOrder.slice(1).concat(temp);
+            console.log(newOrder)
             const currentIndex = newOrder.indexOf(index);
-            newOrder.push(newOrder.splice(currentIndex, 1)[0]);
+            newOrder.unshift(newOrder.splice(currentIndex, 1)[0]);
             return newOrder;
         });
-    };
-
+      };
+    
     const moveThumbnailToStart = (index) => {
         setThumbnailOrder(prevOrder => {
             const newOrder = [...prevOrder];
@@ -71,20 +75,18 @@ function Slider() {
                 ))}
             </div>
 
-
-
             <div className="thumbnail">
-            {thumbnailOrder.map(index => {
-                    const item = sliders[index];
+            {thumbnailOrder.map((index) => {
+                    const items = sliders[index];
                     return (
                         <div 
                             className="item" 
-                            key={item.id} 
+                            key={items.id} 
                             onClick={() => setCurrentSlide(index)}
                         >
-                            <img src={item.image} alt={item.member} loading='lazy'/>
+                            <img src={items.image} alt={items.member} loading='lazy'/>
                             <div className="content">
-                                <div className="title">{item.member}</div>
+                                <div className="title">{items.member}</div>
                             </div>
                         </div>
                     );
