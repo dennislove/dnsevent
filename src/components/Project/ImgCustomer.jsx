@@ -10,7 +10,7 @@ function ImgCustomer() {
      pm:grid-cols-2 pm:gap-y-5 pm:gap-x-2'>
       {customers.map(customer => (
         <div key={customer.id}>
-          <img src={customer.imgSrc} alt={customer.imgAlt} className='hover:scale-125 transition ease-out duration-300'/>
+          <img src={customer.imgSrc} loading='lazy' alt={customer.imgAlt} className='text-white hover:scale-125 transition ease-out duration-300'/>
         </div>
       ))}
     </div>

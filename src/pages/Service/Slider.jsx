@@ -2,76 +2,102 @@ import React, { useEffect, useRef, useState } from 'react'
 import '../Service/style.css'
 import data from "../../assets/data.json"
 
-
 function Slider() {
-    const sliders = data.slider
+    const sliders = data.slider;
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const [slideDirection, setSlideDirection] = useState("");
+    const [transform, setTransform] = useState("")
+    const [thumbnailOrder, setThumbnailOrder] = useState(sliders.map((_, index) => index));
 
-    const [currentSlide, setCurrentSlide] = useState(sliders[0]);
+    const nextSlide = () => {
+        const newSlide = (currentSlide + 1) % sliders.length;
+        setCurrentSlide(newSlide);
+        moveThumbnailToEnd(newSlide);
+        setSlideDirection("next");
+        setTransform("animation-showContent")
+    };
 
-    // lưu slide hiện tại
-    const carouselRef = useRef(null);
-  
+    const prevSlide = () => {
+        const newSlide = (currentSlide - 1 + sliders.length) % sliders.length;
+        setCurrentSlide(newSlide);
+        moveThumbnailToStart(newSlide);
+        setSlideDirection("prev");
+    };
+
+    const moveThumbnailToEnd = (index) => {
+        setThumbnailOrder(prevOrder => {
+            const newOrder = [...prevOrder];
+            const currentIndex = newOrder.indexOf(index);
+            newOrder.push(newOrder.splice(currentIndex, 1)[0]);
+            return newOrder;
+        });
+    };
+
+    const moveThumbnailToStart = (index) => {
+        setThumbnailOrder(prevOrder => {
+            const newOrder = [...prevOrder];
+            const currentIndex = newOrder.indexOf(index);
+            newOrder.unshift(newOrder.splice(currentIndex, 1)[0]);
+            return newOrder;
+        });
+    };
     useEffect(() => {
-        carouselRef.current = setInterval(() => {
-            setCurrentSlide(prevSlide => prevSlide + 1);
-        }, 2000);
-    
-        return () => clearInterval(carouselRef.current);
-      }, [sliders.length]);
+        const timer = setTimeout(() => {
+            setSlideDirection("");
+        }, 500); // assuming animation duration is 0.5s
 
-    const handleNext = (index) =>{
-       setCurrentSlide(index +1)
-       clearInterval(carouselRef.current +1);
-    }
-
-    const handlePrev = (index) =>{
-        setCurrentSlide(index -1)
-       clearInterval(carouselRef.current -1);
-    }
+        return () => clearTimeout(timer);
+    }, [currentSlide]); 
 
   return (
-    <div>
-       <div className="carousel">
-        {/* <!-- list item --> */}
-        <div className="list">  
-            { sliders.map((item,index) =>(
-                    <div className={` ${index === currentSlide ? "" : "item" }`} key={index} data-tab={item.id} >
-                        <img src={item.image} />
-                        <div className="content">
-                            <div className="author">{item.author}</div>
-                            <div className="topic">{item.member}</div>
-                            <div className="des"> {item.description}
-                                {/* <!-- lorem 50 --> */}
-                                 </div>
-                            
+    <div className={`carousel ${slideDirection} ${transform}`}>
+            <div className={`list `}  >  
+                {sliders.map((item, index) => (
+                    <div onClick={() => setCurrentSlide(index)}
+                    className={`item`}
+                    key={index}
+                    style={{ 
+                        opacity: index === currentSlide ? 1 : 0,
+                        zIndex: index === currentSlide ? 1 : -1 
+                    }}
+                    >
+                        <img src={item.image} alt={item.member} loading='lazy' />
+                        <div className={`content  md:top-[15%] pm:top-[6%]`}>
+                            <div className="author md:text-base pm:text-sm">{item.author}</div>
+                            <div className="topic md:text-[5rem] pm:text-[60px]">{item.member}</div>
+                            <div className="des">{item.description}</div>
                         </div>
                     </div>
                 ))}
-        </div>
-        {/* <!-- list thumnail --> */}
-        <div className="thumbnail">
-            {sliders.map(item =>(
-                 <div className="item" key={item.id}>
-                 <img src={item.image}/>
-                 <div className="content">
-                     <div className="title">
-                        {item.member}
-                     </div>
-                     
-                 </div>
-             </div>
-            ))}
-           
-        </div>
-        {/* <!-- next prev --> */}
+            </div>
 
-        <div className="arrows">
-            <button id="prev" onClick={handlePrev}>
+
+
+            <div className="thumbnail">
+            {thumbnailOrder.map(index => {
+                    const item = sliders[index];
+                    return (
+                        <div 
+                            className="item" 
+                            key={item.id} 
+                            onClick={() => setCurrentSlide(index)}
+                        >
+                            <img src={item.image} alt={item.member} loading='lazy'/>
+                            <div className="content">
+                                <div className="title">{item.member}</div>
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
+            <div className="arrows">
+            <button id="prev" onClick={prevSlide} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mx-auto">
                 <path fillRule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clipRule="evenodd" />
                 </svg>
             </button>
-            <button id="next" onClick={handleNext}>
+            <button id="next" onClick={nextSlide} >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mx-auto">
                 <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
                 </svg>
@@ -80,7 +106,7 @@ function Slider() {
         </div>
         
     </div>
-    </div>
+    
   )
 }
 

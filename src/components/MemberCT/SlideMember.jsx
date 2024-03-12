@@ -40,7 +40,7 @@ function SlideMember() {
                         {item.title}
                     </p>
                     <div className="testimonialBodyPersonal active">
-                        <div className="testimonialBodyPersonalImg"><img src={item.avatar} alt={item.name} /></div>
+                        <div className="testimonialBodyPersonalImg"><img src={item.avatar} alt={item.name} loading='lazy'/></div>
                         <h4 className="testimonialBodyPersonalName">{item.name}</h4>
                     </div>
                 </li>
@@ -52,7 +52,7 @@ function SlideMember() {
                 {members.map((item,index) =>(
                     <li key={index} onClick={() => handleClickTab(index)} className={`testimoniaPersonalItem ${activeTab === index ? 'active' : ''}`} data-tab={item.id}>
                       <div className="testimoniaPersonalImage">
-                        <img src={item.avatar} alt={item.name} />
+                        <img  src={item.avatar} loading='lazy' alt={item.name} className='text-white text-xs' />
                       </div>
                     </li>
                 ))}

@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Slider from './Slider'
+import VideoClip from '../../components/Video/VideoClip'
+import Media from '../../components/Video/Media'
 
 function ProductSer() {
   return (
@@ -14,6 +16,18 @@ function ProductSer() {
             <section>
             <Slider/>
             </section>
+
+            <div className='mt-10 mb-5 text-center font-oxa'>
+            <h2 className='  font-normal text-[40px] text-white capitalize'>Video Clip</h2>
+              <VideoClip/>
+       
+            </div>
+
+            <div className='mt-10 mb-5 text-center font-oxa'>
+            <h2 className='  font-normal text-[40px] text-white capitalize'>Albums Hoạt Động</h2>
+              <Media/>
+       
+            </div>
         </div>
         </div>
       <Footer/>

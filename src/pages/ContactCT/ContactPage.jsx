@@ -8,9 +8,6 @@ function ContactPage() {
     <div className='relative'>
       <NewContact/>
       <Footer/>
-      <div className=' absolute'>
-        <ScrollToTop/>
-      </div>
     </div>
   )
 }

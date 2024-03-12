@@ -36,8 +36,8 @@ function HeaderComponent() {
                 </button>
               {/* logo */}
                 <a href='/'>
-              <img src={logo} alt="logo-DNS"
-              className='rounded-full md:h-20 pm:h-16 border-2 border-yellow-600'/>
+              <img src={logo} alt="logo-DNS" loading='lazy'
+              className='rounded-full text-white md:h-20 pm:h-16 border-2 border-yellow-600'/>
               </a>
           
             <ul className=' text-white items-center justify-center lg:gap-14 md:gap-10 sm:gap-6 hidden md:flex'>
@@ -71,7 +71,7 @@ function HeaderComponent() {
               </svg>
               </div>
 
-              <img src={logo} alt="logo-DNS" className='mx-auto rounded-full  pm:h-20 border-2 border-yellow-600'/>
+              <img src={logo} alt="logo-DNS" loading='lazy' className='mx-auto rounded-full  pm:h-20 border-2 border-yellow-600'/>
               <ul className='mt-2'>
             {headerList.map(item =>(
                          <li key={item.id} className=' w-full  uppercase cursor-pointer'>

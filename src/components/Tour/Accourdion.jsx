@@ -35,7 +35,7 @@ const Accourdion = ({ items }) => {
           </button>
           {activeIndex === index && (
             <div className="p-4 rounded-b-lg bg-white shadow-md">
-             <img src={item.content} alt={item.title} /> 
+             <img loading='lazy' src={item.content} alt={item.title} /> 
             </div>
           )}
         </div>

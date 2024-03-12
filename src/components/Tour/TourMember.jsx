@@ -13,7 +13,7 @@ function TourMember() {
                   ? "w-1/2 h-1/2 ml-20 translate-x-1/2"
                   : "w-1/2 h-1/2 transform -translate-x-1/2 "
               }>
-                    <img src={item.imgSrc} alt={item.imgAlt} className='w-full h-full bg-cover transition-all delay-200'/>
+                    <img loading='lazy' src={item.imgSrc} alt={item.imgAlt} className='w-full h-full bg-cover transition-all delay-200'/>
                     <div className='h-[1px] w-full bg-white'></div>
                 </div>
                

@@ -99,11 +99,6 @@
             "name": "Trang Chủ"
         },
         {
-            "path":"/gioi-thieu",
-            "id": 2,
-            "name": "Giới Thiệu"
-        },
-        {
             "path":"/du-an",
             "id": 3,
             "name": "Dự Án"

@@ -29,17 +29,17 @@ function PhotoCollage() {
         
          <div className='flex gap-7 lg:gap-7 md:gap-4 sm:gap-3 pm:gap-2 flex-row'>
               <div className="  w-full relative overflow-hidden block text-white">
-                <img
+                <img loading='lazy'
                   src={back1}
                   alt="Image 1"
                   className=" object-cover hover:scale-125 hover:-rotate-[10deg] transition duration-1000"
                 
                 />
               </div>
-              <div className="  w-full relative overflow-hidden block
+              <div className="  w-full relative overflow-hidden block text-white
               ">
             
-                <img
+                <img loading='lazy'
                   src={back2}
                   alt="Image 2"
                   className=" object-cover hover:scale-125 hover:-rotate-[10deg] transition duration-1000

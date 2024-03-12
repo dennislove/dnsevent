@@ -18,7 +18,7 @@
 }
 .carousel .list .item .content{
     position: absolute;
-    top: 20%;
+    
     width: 1140px;
     max-width: 80%;
     left: 50%;
@@ -34,15 +34,13 @@
 }
 
 .carousel .list .item .topic{
-    font-size: 5em;
+   
     font-weight: bold;
     line-height: 1.3em;
 }
 .carousel .list .item .topic{
     color: #f1683a;
 }
-
-
 .thumbnail{
     position: absolute;
     bottom: 50px;
@@ -104,38 +102,34 @@
 }
 
 /* animation */
-.carousel .list .item:nth-child(1){
+.carousel .list .item{
     z-index: 1;
 }
 
 /* animation text in first item */
 
-.carousel .list .item:nth-child(1) .content .author,
-.carousel .list .item:nth-child(1) .content .topic,
-.carousel .list .item:nth-child(1) .content .des
+.carousel.next .list .item .content .author,
+.carousel.next .list .item .content .topic,
+.carousel.next .list .item .content .des
 {
-    transform: translateY(50px);
-    filter: blur(20px);
-    opacity: 0;
-    animation: showContent .5s 1s linear 1 forwards;
+    transform: translateY(100px);    
+    filter: blur(0px);
+    opacity: 1;
+     animation: showContent 1s linear 1 forwards!important;
 }
 @keyframes showContent{
     to{
-        transform: translateY(0px);
-        filter: blur(0px);
-        opacity: 1;
+        transform: translateY(50px);
+        filter: blur(20px);
+        opacity: 0;
     }
 }
 
-.carousel .list .item:nth-child(1) .content .topic{
-    animation-delay: 1.4s!important;
-}
-.carousel .list .item:nth-child(1) .content .des{
-    animation-delay: 1.6s!important;
-}
-
 /* create animation when next click */
-.carousel.next .list .item:nth-child(1) img{
+.carousel.next .list .item:nth-child(1) img,
+.carousel.next .list .item:nth-child(2) img,
+.carousel.next .list .item:nth-child(3) img,
+.carousel.next .list .item:nth-child(4) img{
     width: 150px;
     height: 220px;
     position: absolute;
@@ -183,7 +177,10 @@
     z-index: 2;
 }
 
-.carousel.prev .list .item:nth-child(2) img{
+.carousel.prev .list .item:nth-child(2) img,
+.carousel.prev .list .item:nth-child(3) img,
+.carousel.prev .list .item:nth-child(4) img,
+.carousel.prev .list .item:nth-child(1) img{
     animation: outFrame 0.5s linear 1 forwards;
     position: absolute;
     bottom: 0;
@@ -210,7 +207,19 @@
 }
 .carousel.prev .list .item:nth-child(2) .content .author,
 .carousel.prev .list .item:nth-child(2) .content .topic,
-.carousel.prev .list .item:nth-child(2) .content .des
+.carousel.prev .list .item:nth-child(2) .content .des,
+
+.carousel.prev .list .item:nth-child(3) .content .author,
+.carousel.prev .list .item:nth-child(3) .content .topic,
+.carousel.prev .list .item:nth-child(3) .content .des,
+
+.carousel.prev .list .item:nth-child(4) .content .author,
+.carousel.prev .list .item:nth-child(4) .content .topic,
+.carousel.prev .list .item:nth-child(4) .content .des,
+
+.carousel.prev .list .item:nth-child(1) .content .author,
+.carousel.prev .list .item:nth-child(1) .content .topic,
+.carousel.prev .list .item:nth-child(1) .content .des
 {
     animation: contentOut 1.5s linear 1 forwards!important;
 }

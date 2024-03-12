@@ -21,7 +21,19 @@ export default {
         oxa: 'SVN-Hemi Head',
         pop: 'Poppins',
       },
-     
+     keyframes:{
+      showContent:{
+        to:{
+          transform:' translateY(50px)',
+          filter: 'blur(0px)',
+          opacity: 0
+      }
+      
+      }
+     },
+     animation:{
+      showContent:'showContent .5s 1s linear 1 forwards'
+     }
     },
   },
   plugins: [],

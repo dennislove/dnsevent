@@ -4,11 +4,11 @@ import LinkNow from './LinkNow'
 
 function Footer() {
   return (
-    <div className='bg-[url(images/bg2.jpg)] object-fill bg-cover pt-10 bg-[#000022] pb-10'>
+    <div className='bg-[url(images/bg2.jpg)] object-fill bg-cover pt-10 bg-[#000022] pb-10  '>
       <div className='max-w-[1300px]  lg:m-auto md:mx-10 sm:mx-8 pm:mx-5 relative'>
         <div className=' justify-between mb-10  sm:flex pm:block'>
           <div className=' mx-auto  md:w-[20%] sm:w-[30%] pm:w-full mb-10'> 
-          <img src={logo} alt="" className='w-28 h-28 rounded-full'/>
+          <img loading='lazy' src={logo} alt="logo-DNS" className='text-white text-xs text-center w-28 h-28 rounded-full'/>
           <h2 className=' uppercase text-yellow-600 font-oxa text-base'> Đông sơn event</h2>
           <h2 className='text-sm text-white'>Giới hạn là bầu trời</h2>
           </div>
