@@ -96,7 +96,7 @@ const VideoClip = () => {
               <div className=''>
                   <video
                     ref={videoRef2}
-                    src="{clipMV2}"
+                    src={clipMV2}
                     className="w-full h-full"
                     autoPlay
                     controls
