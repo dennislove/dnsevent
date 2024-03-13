@@ -43,6 +43,7 @@ const VideoClip = () => {
 
             </button>
             <img src={imgMV1} alt="Thumbnail" className="object-cover hover:scale-125 transition duration-1000" />
+            <h2 className='text-white font-semibold font-pop text-xl uppercase w-full bg-yellow-600'>Để cho anh cưa</h2>
           </div>
           
         )}
@@ -81,6 +82,7 @@ const VideoClip = () => {
 
             </button>
             <img src={imgMV2} alt="Thumbnail" className="object-cover hover:scale-125 transition duration-1000" />
+            <h2 className='text-white font-semibold font-pop text-xl uppercase w-full bg-yellow-600'>chúng ta của tương lai</h2>
           </div>
           
         )}
@@ -119,6 +121,7 @@ const VideoClip = () => {
 
             </button>
             <img src={imgMV3} alt="Thumbnail" className="object-cover hover:scale-125 transition duration-1000" />
+            <h2 className='text-white font-semibold font-pop text-xl uppercase w-full bg-yellow-600'>vụ nổ lớn</h2>
           </div>
           
         )}

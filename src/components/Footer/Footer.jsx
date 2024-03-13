@@ -81,7 +81,7 @@ function Footer() {
           </div>
             </div>
         </div>
-        <h2 className='text-center font-sm text-white mt-10'>2023 Copyright <span className='text-yellow-600'>Đông Sơn Event</span>. Designed by <span className='text-yellow-600'>dongsonevent</span></h2>
+        <h2 className='text-center font-sm text-white mt-10'>2024 Copyright <span className='text-yellow-600'>Đông Sơn Event</span>. Designed by <span className='text-yellow-600'>dongsonevent</span></h2>
       </div>
     </div>
   )

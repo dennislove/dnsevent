@@ -181,15 +181,11 @@
     ],
     "tourament":[
         { 
-            "title": "Chuyên Nghiệp",
+            "title": "Chân Thành",
             "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
         },
         { 
-            "title": "Sáng Tạo", 
-            "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
-        },
-        { 
-            "title": "Trách Nhiệm", 
+            "title": "Tạo Giá Trị", 
             "content": "http://www.grandteambuilding.vn/thumbs/210x460x1/upload/news/pvi-2646.png" 
         },
         { 
@@ -238,22 +234,17 @@
         {
             "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
             "imgAlt":"tourmember_1",
-            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+            "description":"Nội dung của giá trị cốt lõi"
         },
         {
             "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
             "imgAlt":"tourmember_2",
-            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+            "description":"Nội dung của giá trị cốt lõi"
         },
         {
             "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
             "imgAlt":"tourmember_3",
-            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
-        },
-        {
-            "imgSrc":"http://www.grandteambuilding.vn/thumbs/230x100x2/upload/news/logo-2-01-6436.png",
-            "imgAlt":"tourmember_4",
-            "description":"Viettools đã đăng ký bảo hộ thương hiệu độc quyền được cấp bởi cục sở hữu trí tuệ, cùng giấy phép kinh doanh lữ hành ký quỹ doanh nghiệp đối với hoạt động du lịch.Chính những yếu tố đó sẽ đảm bảo đem lại sự tin tưởng tuyệt đối từ khách hàng và đối tác của Viettools."
+            "description":"Nội dung của giá trị cốt lõi"
         }
     ],
     "slider":[
@@ -284,6 +275,36 @@
             "member":"THPT Chuyên Lam Sơn",
             "image":"https://github.com/HoanghoDev/slider_1/blob/main/image/img4.jpg?raw=true",
             "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?"
+        }
+    ],
+    "news" :[
+        {
+            "id":1,
+            "title":"Ý nghĩa - Những giá trị đọng lại của ngày Họp lớp - Hội khoá đã được nhà đài TTV khắc hoạ sinh động, chân thực !",
+            "imageSrc": "https://github.com/HoanghoDev/slider_1/blob/main/image/img1.jpg?raw=true",
+            "imageAlt":"",
+            "path":"https://www.facebook.com/watch/?v=702685938346723"
+        },
+        {
+            "id":2,
+            "title":"Những người trẻ tâm huyết với lịch sử, văn hóa truyền thống",
+            "imageSrc": "https://github.com/HoanghoDev/slider_1/blob/main/image/img1.jpg?raw=true",
+            "imageAlt":"",
+            "path":"https://baothanhhoa.vn/dat-va-nguoi/nhung-nguoi-tre-tam-huyet-voi-lich-su-van-hoa-truyen-thong/200624.htm"
+        },
+        {
+            "id":3,
+            "title":"TEAM BUILDING TRẢI NGHIỆM LỊCH SỬ 2023",
+            "imageSrc": "https://github.com/HoanghoDev/slider_1/blob/main/image/img1.jpg?raw=true",
+            "imageAlt":"",
+            "path":"https://www.facebook.com/watch/?v=1829891707373233"
+        },
+        {
+            "id":4,
+            "title":"Truyền Hình TX NGHI SƠN đã đưa tin về những hoạt động của CTY CP SỰ KIỆN VÀ DU LỊCH ĐÔNG SƠN",
+            "imageSrc": "https://drive.google.com/file/d/1lh5yo4O1qdSeU0uur_HxZt2TqwpjEWW_/view?usp=sharing",
+            "imageAlt":"",
+            "path":"https://www.facebook.com/watch/?v=229200386521646"
         }
     ]
 }

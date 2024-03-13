@@ -12,7 +12,7 @@ function SlideMember() {
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       setActiveTab((prevActiveTab) => (prevActiveTab + 1) % members.length);
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(intervalRef.current);
   }, [members.length]);
